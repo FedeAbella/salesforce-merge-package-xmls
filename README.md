@@ -17,7 +17,8 @@ The script requires Python 3 to run, and the modules `xmltodict os argparse`. Yo
 usage: merge_packages.py [-h] [-v] [-o OUTPUT] source
 
 Merge all package.xml files found in tree with root at
-SOURCE into a single package.xml file. Makes the package version the greatest version amongst those found in
+SOURCE into a single package.xml file. Makes the package
+version the greatest version amongst those found in
 source files. The package is written to STDOUT unless -o
 is included.
 
